@@ -1,0 +1,85 @@
+footer{
+    background-color: #C4C4C4;
+    height: auto 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+   
+.logorodape{
+    margin-bottom: 10px;
+    height: 60px;
+}
+.canais{
+    font-size: 16px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+.canais a{
+    color: blue;
+}
+.redessoc{
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: space-between;
+   }
+.red{
+    height: 50px;
+    padding: 4px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.redessoc a{
+    text-decoration: none;
+
+}
+.direitos{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+}
+#campo-email{
+    border: solid 0.5px;
+    }
+#btncadastro{
+    background-color: #0A0E34;
+    color: #fff;
+    padding: 2px;
+    border-radius: 2px;
+    
+}
+
+@media screen and (max-width: 520px){
+    .rodape {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .canais a {
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        margin: auto;
+
+    }
+    .redessoc {
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        margin: auto;
+    }
+        }

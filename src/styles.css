@@ -8,5 +8,11 @@
     color: #323232;
     border: none;
 }
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{
+    background: linear-gradient(180deg, #0A0E34 0%, #3143E2 100%);
+    background-repeat: no-repeat;
+    height:100vh;
+}
