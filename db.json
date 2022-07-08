@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "nome": "Franciel",
+      "email": "franciel_cr@hotmail.com",
+      "password": "teste",
+      "id": 1
+    },
+    {
+      "email": "adriano@email.com",
+      "password": "$2a$10$qFRI7INi3XaCdUCA2vaEl.g4wUXF.cVbOoFALTaQWn8FCqnl1oC4W",
+      "nome": "Adriano",
+      "id": 2
+    },
+    {
+      "nome": "João",
+      "email": "joao@email.com",
+      "password": "senha3",
+      "id": 3
+    },
+    {
+      "email": "caio@email.com",
+      "password": "$2a$10$jDNWv2lrmsKu1gpZn0I0OOUclKNLW5kNcQKJLuygufTlgu49t.I3m",
+      "nome": "Caio",
+      "id": 4
+    }
+  ]
+}
