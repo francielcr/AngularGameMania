@@ -15,13 +15,21 @@ export class LoginComponent implements OnInit {
   }
 
   userModel = new User()
+  mensagem = ""
 
   receberDados() {
     console.log(this.userModel)
     this.loginService.login(this.userModel).subscribe((response) => {
       console.log("response:", response)
-    }, (erro) => {
-      console.log(erro)
+      console.log("O status Code é:", response.status)
+      console.log("O Token de permissão é:", response.body.accessToken)
+
+      this.mensagem = "Bem vindo " + response.body.user.nome
+      console.log(this.mensagem)
+    }, (responseErro) => {
+      console.log("responseErro", responseErro)
+      this.mensagem = responseErro.error;
+      
     })
   }
 }
